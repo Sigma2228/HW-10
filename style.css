@@ -64,55 +64,43 @@
     font-weight: 100;
     src: url('fonts/Roboto/Roboto-ThinItalic.ttf')
 }
-body {
-    font-family: 'Roboto' ;
+body {font-size: 16px;
+    font-family: 'Roboto';
 }
 .header-link {
+    font-size: 16px;
     font-weight: 500;
-    line-height: auto;
     text-decoration: none;
 }
-.title {
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 160%;
+.header-link:active {
+    color: blueviolet;
 }
-.button {
-    font-size: 16px;
+
+.header-button {color: #212121    ;
+line-height: 126%;
+font-size: 16px;}
+
+.header-button:hover {background-color: dodgerblue;
+color: white;
+border-color: dodgerblue;
+font-weight: 500;}
+
+.main-item {
+    font-size: 18px;
     font-weight: 700;
+    line-height: 136%;
+}
+
+
+.main-appoinment {
+    font-weight: 400;
+    font-size: 16px;
     line-height: 130%;
 }
-.table-head {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: auto;
-}
-.table-body {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 124%;
-}
-.section-title {
-    font-weight: 700;
-    font-size: 36;
-    line-height: auto;
-}
-.we-who-are-name {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: auto;
-}
-.we-who-are-profesion {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: auto;
-}
-.footer-details {
-    font-size: 14px;
-    font-weight: 400;
-    color: white;
-    background-color: black; padding: 30px;
-    line-height: 130%;
-    
-}
+footer
+{font-weight: 400;
+font-size: 14px;
+line-height: 124%;
+color: white;
+background-color: #212121;padding: 50px;}
 
